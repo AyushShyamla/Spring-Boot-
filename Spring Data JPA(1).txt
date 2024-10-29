@@ -1,0 +1,41 @@
+Spring Data JPA
+
+What is ORM?
+ORM stands for Object Relational Mapping.
+
+ORM is a Programming Technique used to Map application domain model objects(Fields) to relational database Tables.
+
+With the help of ORM, we don't have to write SQL queries.
+
+
+What is JPA?
+JPA stands for Java Persistence API.
+
+In Java, ORM is achieved via JPA.
+
+JPA is just a specification, not an Implementation.
+
+JPA provides the platform to work directly with the Objects without creating SQL statements.
+
+
+What is Hibernate?
+Hibernate is Java based ORM tool that provides a framework to Map application domain object models directly to relational database tables and vice versa.
+
+Hibernate is the implementation for JPA.
+
+Internally Hibernate uses JDBC to communicate with the Database.
+
+
+What is Spring Data JPA?
+Spring Data JPA is just an abstraction layer on top of JPA.
+
+It just reduces the amount of boilerplate to access the data layer for various persistence stores.
+
+Spring Data JPA is not a JPA provider.
+
+Spring Data JPA cannot work without a JPA provider.
+
+Spring Data JPA Repository internally calls all the Methods provided by the JPA(Entity Manager, Typed Query, etc).
+
+
+IN SPRING BOOT WE USE SPRING-BOOT-STATER-DATA-JPA DEPENDENCY TO WORK WITH SPRING DATA JPA.
