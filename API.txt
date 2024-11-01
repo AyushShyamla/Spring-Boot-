@@ -1,0 +1,18 @@
+API 
+
+API stands for Application Programmable Interface.
+API is a set of RULES and Protocols that enables computer software applications to communicate and exchange data and functionalities with each other.
+
+How does it Work?
+So, API architecture is usually explained in terms of client and server.
+The Client sends an API request to the Application Server and the Application server
+in return, server processes the Query and sends it back as an API response to the Client.
+
+In simple terms, API acts as an intermediate between the end-user client and the application server. 
+
+There are four different ways that APIs can work depending on when and why they were created.
+
+1. SOAP APIs
+2. RPC APIs
+3. WebSocket APIs
+4. REST APIs
