@@ -1,0 +1,31 @@
+REST APIs
+It stands for Representational State Transfer.
+It is an architectural style for an application programming interface that uses HTTP requests to access and use data.
+REST APIs are platform-independent and can be used with any programming interface.
+RESTful APIs are highly Scalable and Flexible.
+
+
+Various REST Methods of HTTP are :
+
+1. GET: It Reads a Resource.
+2. PUT: It Updates an existing Resource.
+3. POST: It Creates a new Resource.
+4. DELETE: It Deletes the Resource.
+
+REST HTTP Status Code :
+
+404:Resource Not Found
+200:Success
+201:Created
+401:Unauthorized
+500:Server Error
+
+REST Authentication methods:
+RESTful API has four common authentication methods:
+
+HTTP Authentication is of 2 types:
+1. BASIC Authentication
+2. Bearer Authentication
+
+3. API keys
+4. OAuth
